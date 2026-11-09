@@ -1,16 +1,15 @@
-## Hi there 👋
+# Selected research and projects
 
-<!--
-**Marico0816/Marico0816** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## Temporal Evidence Fusion (TEF)
 
-Here are some ideas to get you started:
+TEF reconstructs a surface mesh from LiDAR scans with known sensor poses. It groups scans into short temporal blocks and combines evidence from surface hits and rays that pass through free space. The fused field is then used to extract a triangle mesh.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+The Python implementation includes a CPU demo that reconstructs a floor and a cylindrical wall from 12 synthetic scans, dataset converters for Newer College and Oxford Spires, and scripts for evaluating reconstructed surfaces. The validation notes describe how the released code compares with the research implementation.
+
+[Code and setup](https://github.com/Marico0816/TEF) · [Run the CPU demo](https://github.com/Marico0816/TEF#sanity-test-no-dataset-needed) · [Validation notes](https://github.com/Marico0816/TEF/blob/main/docs/validation.md)
+
+## Digital Spherimeter
+
+A team project for calculating areas on a sphere. It estimates country areas from geographic boundaries and lets users draw regions for interactive area calculation.
+
+[Project repository](https://github.com/Marico0816/digital-spherimeter)
